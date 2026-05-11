@@ -1,4 +1,4 @@
-# Задание 3 — веб-приложение с LLM-агентом (Streamlit + Gemini)
+# Задание 3 — веб-приложение с LLM-агентом (Streamlit + GROQ)
 
 Приложение позволяет загрузить CSV/Excel, затем LLM генерирует Python-код (pandas/matplotlib) для анализа, код выполняется локально в безопасной временной папке, после чего показывается итоговый отчёт и построенные графики.
 
@@ -22,7 +22,7 @@ py -3 -m pip install -r task3/requirements.txt
 
 В `.env` укажите:
 
-`GROQ_API_KEY=...`
+`GROQ_API_KEY=your_api_key_here`
 
 
 Где взять ключ:

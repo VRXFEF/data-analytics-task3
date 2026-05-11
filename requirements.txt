@@ -1,0 +1,7 @@
+streamlit>=1.51.0
+pandas==3.0.2
+openpyxl==3.1.5
+matplotlib==3.10.6
+python-dotenv==1.2.2
+groq>=0.13.0
+pydantic==2.13.3
